@@ -1,0 +1,197 @@
+.consentkit-admin {
+	max-width: 1100px;
+}
+
+.consentkit-admin h1 {
+	margin-bottom: 24px;
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.consentkit-admin form {
+	max-width: 920px;
+}
+
+.consentkit-admin h2 {
+	margin: 32px 0 0;
+	padding: 18px 22px;
+	background: #ffffff;
+	border: 1px solid #dcdcde;
+	border-bottom: 0;
+	border-radius: 10px 10px 0 0;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.consentkit-admin .form-table {
+	margin: 0 0 24px;
+	background: #ffffff;
+	border: 1px solid #dcdcde;
+	border-radius: 0 0 10px 10px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.consentkit-admin .form-table th {
+	width: 240px;
+	padding: 22px;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.consentkit-admin .form-table td {
+	padding: 18px 22px;
+}
+
+.consentkit-admin input[type="text"],
+.consentkit-admin input[type="email"],
+.consentkit-admin input[type="number"],
+.consentkit-admin select,
+.consentkit-admin textarea {
+	width: 100%;
+	max-width: 560px;
+	border-color: #c3c4c7;
+	border-radius: 6px;
+}
+
+.consentkit-admin input[type="text"],
+.consentkit-admin input[type="email"],
+.consentkit-admin input[type="number"],
+.consentkit-admin select {
+	min-height: 36px;
+}
+
+.consentkit-admin textarea {
+	min-height: 140px;
+	font-family: Consolas, Monaco, monospace;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+.consentkit-admin input[type="color"] {
+	width: 70px;
+	height: 36px;
+	padding: 2px;
+	border: 1px solid #c3c4c7;
+	border-radius: 6px;
+	background: #ffffff;
+	cursor: pointer;
+}
+
+.consentkit-admin input[type="checkbox"] {
+	width: 18px;
+	height: 18px;
+	margin-top: 2px;
+}
+
+.consentkit-admin .submit {
+	position: sticky;
+	bottom: 0;
+	z-index: 10;
+	margin: 32px 0 0;
+	padding: 16px 0;
+	background: #f0f0f1;
+	border-top: 1px solid #dcdcde;
+}
+
+.consentkit-admin .button-primary {
+	min-height: 36px;
+	padding: 0 18px;
+	border-radius: 6px;
+	font-weight: 600;
+}
+
+@media (max-width: 782px) {
+	.consentkit-admin {
+		max-width: 100%;
+	}
+
+	.consentkit-admin .form-table th,
+	.consentkit-admin .form-table td {
+		display: block;
+		width: auto;
+		padding: 16px 18px;
+	}
+
+	.consentkit-admin .form-table th {
+		padding-bottom: 4px;
+	}
+
+	.consentkit-admin input[type="text"],
+	.consentkit-admin input[type="email"],
+	.consentkit-admin input[type="number"],
+	.consentkit-admin select,
+	.consentkit-admin textarea {
+		max-width: 100%;
+	}
+}
+
+.consentkit-field-description {
+	max-width: 560px;
+	margin: 8px 0 0;
+	color: #646970;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+.consentkit-admin textarea + .consentkit-field-description {
+	padding: 10px 12px;
+	background: #f6f7f7;
+	border-left: 4px solid #72aee6;
+	border-radius: 4px;
+}
+
+.consentkit-tabs {
+	display: flex;
+	gap: 8px;
+	flex-wrap: wrap;
+	max-width: 920px;
+	margin: 0 0 20px;
+	padding: 6px;
+	background: #ffffff;
+	border: 1px solid #dcdcde;
+	border-radius: 10px;
+}
+
+.consentkit-tab {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 36px;
+	padding: 8px 14px;
+	border: 0;
+	border-radius: 8px;
+	background: transparent;
+	color: #1d2327;
+	font-size: 14px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.consentkit-tab:hover {
+	background: #f6f7f7;
+}
+
+.consentkit-tab.is-active {
+	background: #2271b1;
+	color: #ffffff;
+}
+
+.consentkit-tab-panel[hidden] {
+	display: none !important;
+}
+
+.consentkit-card {
+	max-width: 920px;
+	padding: 22px;
+	background: #ffffff;
+	border: 1px solid #dcdcde;
+	border-radius: 10px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.consentkit-card h2 {
+	margin: 0 0 10px;
+	padding: 0;
+	border: 0;
+	background: transparent;
+}
