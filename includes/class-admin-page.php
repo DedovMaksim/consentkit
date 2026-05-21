@@ -19,10 +19,10 @@ class ConsentKit_Admin_Page {
 	public function add_menu_page() {
 
 		add_menu_page(
-			__( 'ConsentKit', 'consentkit' ),
-			__( 'ConsentKit', 'consentkit' ),
+			__( 'maksimdedov-cookie-consent-manager', 'maksimdedov-cookie-consent-manager' ),
+			__( 'maksimdedov-cookie-consent-manager', 'maksimdedov-cookie-consent-manager' ),
 			'manage_options',
-			'consentkit',
+			'maksimdedov-cookie-consent-manager',
 			array( $this, 'render_page' ),
 			'dashicons-shield',
 			81

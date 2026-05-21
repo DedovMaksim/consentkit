@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 <div class="consentkit-preferences-page">
 
 	<p>
-		<?php esc_html_e( 'Manage your cookie settings and privacy preferences.', 'consentkit' ); ?>
+		<?php esc_html_e( 'Manage your cookie settings and privacy preferences.', 'maksimdedov-cookie-consent-manager' ); ?>
 	</p>
 
 	<button
@@ -21,7 +21,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		class="consentkit-button consentkit-button--primary"
 		data-consentkit-open-modal
 	>
-		<?php esc_html_e( 'Open Preferences Center', 'consentkit' ); ?>
+		<?php esc_html_e( 'Open Preferences Center', 'maksimdedov-cookie-consent-manager' ); ?>
 	</button>
 
 	<button
@@ -29,7 +29,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		class="consentkit-button consentkit-button--secondary"
 		data-consentkit-reset
 	>
-		<?php esc_html_e( 'Reset preferences', 'consentkit' ); ?>
+		<?php esc_html_e( 'Reset preferences', 'maksimdedov-cookie-consent-manager' ); ?>
 	</button>
 
 </div>

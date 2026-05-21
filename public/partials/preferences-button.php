@@ -27,14 +27,14 @@ if ( empty( $consentkit_options['show_preferences_button'] ) ) {
 		id="consentkit-preferences-button"
 		data-consentkit-open-modal
 	>
-		<?php esc_html_e( 'Cookie settings', 'consentkit' ); ?>
+		<?php esc_html_e( 'Cookie settings', 'maksimdedov-cookie-consent-manager' ); ?>
 	</button>
 
 	<button
 		type="button"
 		class="consentkit-preferences-close"
 		id="consentkit-preferences-close"
-		aria-label="<?php esc_attr_e( 'Close cookie settings button', 'consentkit' ); ?>"
+		aria-label="<?php esc_attr_e( 'Close cookie settings button', 'maksimdedov-cookie-consent-manager' ); ?>"
 	>
 		&times;
 	</button>

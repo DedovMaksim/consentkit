@@ -25,9 +25,8 @@ class ConsentKit_Script_Manager {
 		}
 
 		echo "\n\n";
-		
-		// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-		echo $this->prepare_script_output( $options['required_scripts'] ); 
+
+		echo $this->prepare_script_output( $options['required_scripts'] );
 
 		echo "\n\n";
 	}
@@ -56,15 +55,12 @@ class ConsentKit_Script_Manager {
 			}
 
 			$prepared_scripts = $this->prepare_script_output( $scripts );
-
-			// Вместо base64 используем легальный rawurlencode.
-			// Он кодирует пробелы и спецсимволы, делая строку безопасной для HTML-атрибута.
-			$encoded_scripts = rawurlencode( $prepared_scripts );
+			$encoded_scripts  = rawurlencode( $prepared_scripts );
 
 			printf(
 				'<script type="text/plain" data-consentkit-category="%1$s" data-consentkit-source="%2$s"></script>' . "\n",
 				esc_attr( $category ),
-				esc_attr( $encoded_scripts ) // Надежно экранируем строку внутри атрибута
+				esc_attr( $encoded_scripts )
 			);
 		}
 
@@ -86,6 +82,41 @@ class ConsentKit_Script_Manager {
 			get_bloginfo( 'charset' )
 		);
 
-		return trim( $scripts );
+		$allowed_tags = array(
+
+			'script' => array(
+				'src'         => true,
+				'type'        => true,
+				'async'       => true,
+				'defer'       => true,
+				'crossorigin' => true,
+				'integrity'   => true,
+				'id'          => true,
+			),
+
+			'noscript' => array(),
+
+			'img' => array(
+				'src'    => true,
+				'alt'    => true,
+				'height' => true,
+				'width'  => true,
+				'style'  => true,
+			),
+
+			'iframe' => array(
+				'src'             => true,
+				'height'          => true,
+				'width'           => true,
+				'style'           => true,
+				'referrerpolicy'  => true,
+				'allowfullscreen' => true,
+			),
+		);
+
+		return wp_kses(
+			trim( $scripts ),
+			$allowed_tags
+		);
 	}
 }

@@ -23,19 +23,19 @@ $consentkit_options = consentkit_get_settings();
 		tabindex="-1"
 	>
 		<button type="button" class="consentkit-modal__close" data-consentkit-close-modal>
-			<span aria-hidden=\"true\">&times;</span>
-			<span class="screen-reader-text"><?php esc_html_e( 'Close', 'consentkit' ); ?></span>
+			<span aria-hidden="true">&times;</span>
+			<span class="screen-reader-text"><?php esc_html_e( 'Close', 'maksimdedov-cookie-consent-manager' ); ?></span>
 		</button>
 
 		<h2 id="consentkit-modal-title" class="consentkit-modal__title">
-			<?php echo esc_html( $consentkit_options['modal_title'] ?? __( 'Cookie settings', 'consentkit' ) ); ?>
+			<?php echo esc_html( $consentkit_options['modal_title'] ?? __( 'Cookie settings', 'maksimdedov-cookie-consent-manager' ) ); ?>
 		</h2>
 
 		<form class="consentkit-preferences" id="consentkit-preferences">
 			<label class="consentkit-toggle">
 				<input type="checkbox" checked disabled>
 				<span>
-					<strong><?php echo esc_html( $consentkit_options['required_title'] ?? __( 'Required cookies', 'consentkit' ) ); ?></strong>
+					<strong><?php echo esc_html( $consentkit_options['required_title'] ?? __( 'Required cookies', 'maksimdedov-cookie-consent-manager' ) ); ?></strong>
 					<small><?php echo esc_html( $consentkit_options['required_description'] ?? '' ); ?></small>
 				</span>
 			</label>
@@ -43,7 +43,7 @@ $consentkit_options = consentkit_get_settings();
 			<label class="consentkit-toggle">
 				<input type="checkbox" name="analytics" value="1" data-consentkit-cookie-category="analytics">
 				<span>
-					<strong><?php echo esc_html( $consentkit_options['analytics_title'] ?? __( 'Analytics cookies', 'consentkit' ) ); ?></strong>
+					<strong><?php echo esc_html( $consentkit_options['analytics_title'] ?? __( 'Analytics cookies', 'maksimdedov-cookie-consent-manager' ) ); ?></strong>
 					<small><?php echo esc_html( $consentkit_options['analytics_description'] ?? '' ); ?></small>
 				</span>
 			</label>
@@ -51,7 +51,7 @@ $consentkit_options = consentkit_get_settings();
 			<label class="consentkit-toggle">
 				<input type="checkbox" name="functional" value="1" data-consentkit-cookie-category="functional">
 				<span>
-					<strong><?php echo esc_html( $consentkit_options['functional_title'] ?? __( 'Functional cookies', 'consentkit' ) ); ?></strong>
+					<strong><?php echo esc_html( $consentkit_options['functional_title'] ?? __( 'Functional cookies', 'maksimdedov-cookie-consent-manager' ) ); ?></strong>
 					<small><?php echo esc_html( $consentkit_options['functional_description'] ?? '' ); ?></small>
 				</span>
 			</label>
@@ -59,18 +59,18 @@ $consentkit_options = consentkit_get_settings();
 			<label class="consentkit-toggle">
 				<input type="checkbox" name="marketing" value="1" data-consentkit-cookie-category="marketing">
 				<span>
-					<strong><?php echo esc_html( $consentkit_options['marketing_title'] ?? __( 'Marketing cookies', 'consentkit' ) ); ?></strong>
+					<strong><?php echo esc_html( $consentkit_options['marketing_title'] ?? __( 'Marketing cookies', 'maksimdedov-cookie-consent-manager' ) ); ?></strong>
 					<small><?php echo esc_html( $consentkit_options['marketing_description'] ?? '' ); ?></small>
 				</span>
 			</label>
 
 			<div class="consentkit-modal__actions">
 				<button type="button" class="consentkit-button consentkit-button--secondary" data-consentkit-reject>
-					<?php echo esc_html( $consentkit_options['button_reject_optional'] ?? __( 'Reject optional', 'consentkit' ) ); ?>
+					<?php echo esc_html( $consentkit_options['button_reject_optional'] ?? __( 'Reject optional', 'maksimdedov-cookie-consent-manager' ) ); ?>
 				</button>
 
 				<button type="submit" class="consentkit-button consentkit-button--primary">
-					<?php echo esc_html( $consentkit_options['button_save'] ?? __( 'Save preferences', 'consentkit' ) ); ?>
+					<?php echo esc_html( $consentkit_options['button_save'] ?? __( 'Save preferences', 'maksimdedov-cookie-consent-manager' ) ); ?>
 				</button>
 			</div>
 		</form>

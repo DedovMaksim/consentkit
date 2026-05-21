@@ -25,14 +25,14 @@ class ConsentKit_Frontend {
 		}
 
 		wp_enqueue_style(
-			'consentkit',
+			'maksimdedov-cookie-consent-manager',
 			CONSENTKIT_URL . 'public/css/consentkit.css',
 			array(),
 			CONSENTKIT_VERSION
 		);
 
 		wp_enqueue_script(
-			'consentkit',
+			'maksimdedov-cookie-consent-manager',
 			CONSENTKIT_URL . 'public/js/consentkit.js',
 			array(),
 			CONSENTKIT_VERSION,
@@ -40,7 +40,7 @@ class ConsentKit_Frontend {
 		);
 
 		wp_localize_script(
-			'consentkit',
+			'maksimdedov-cookie-consent-manager',
 			'ConsentKitData',
 			array(
 				'cookieExpiration'        => absint( $options['cookie_expiration'] ?? 180 ),

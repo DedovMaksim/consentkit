@@ -1,10 +1,10 @@
-=== ConsentKit ===
+=== Maksim Dedov Cookie Consent Manager ===
 Contributors: maksimdedov
 Tags: cookies, cookie consent, privacy, consent mode, google consent mode
 Requires at least: 6.0
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 0.1.2
+Stable tag: 0.1.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,7 @@ Modern cookie consent and privacy preferences plugin for WordPress with granular
 
 == Description ==
 
-ConsentKit helps website owners manage cookie consent, privacy preferences and conditional script loading with a modern and lightweight user experience.
+Maksim Dedov Cookie Consent Manager helps website owners manage cookie consent, privacy preferences and conditional script loading with a modern and lightweight user experience.
 
 Features include:
 
@@ -30,26 +30,26 @@ Features include:
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/consentkit` directory
+1. Upload the plugin files to the `/wp-content/plugins/maksimdedov-cookie-consent-manager` directory
 2. Activate the plugin through the WordPress admin panel
-3. Open ConsentKit → Settings
+3. Open Maksim Dedov Cookie Consent Manager → Settings
 4. Configure your preferences and scripts
 
 == Frequently Asked Questions ==
 
-= Does ConsentKit block scripts before consent? =
+= Does Maksim Dedov Cookie Consent Manager block scripts before consent? =
 
 Yes. Optional scripts can be loaded only after consent is granted.
 
-= Does ConsentKit support Google Consent Mode v2? =
+= Does Maksim Dedov Cookie Consent Manager support Google Consent Mode v2? =
 
-Yes. ConsentKit can help manage Google Consent Mode v2 preferences based on visitor choices.
+Yes. Maksim Dedov Cookie Consent Manager can help manage Google Consent Mode v2 preferences based on visitor choices.
 
-= Is ConsentKit translation ready? =
+= Is Maksim Dedov Cookie Consent Manager translation ready? =
 
 Yes. The plugin includes a translation-ready architecture and text domain support.
 
-= Does ConsentKit work with multisite? =
+= Does Maksim Dedov Cookie Consent Manager work with multisite? =
 
 Yes. Basic multisite support is included.
 
@@ -57,7 +57,7 @@ Yes. Basic multisite support is included.
 
 1. Cookie consent banner
 2. Preferences modal
-3. ConsentKit settings page
+3. Maksim Dedov Cookie Consent Manager settings page
 4. Script management settings
 
 == Changelog ==

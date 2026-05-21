@@ -13,28 +13,28 @@ if ( ! defined( 'ABSPATH' ) ) {
 <div class="wrap consentkit-admin">
 
 	<h1>
-		<?php esc_html_e( 'ConsentKit Settings', 'consentkit' ); ?>
+		<?php esc_html_e( 'ConsentKit Settings', 'maksimdedov-cookie-consent-manager' ); ?>
 	</h1>
 
-	<nav class="consentkit-tabs" aria-label="<?php esc_attr_e( 'ConsentKit settings tabs', 'consentkit' ); ?>">
+	<nav class="consentkit-tabs" aria-label="<?php esc_attr_e( 'ConsentKit settings tabs', 'maksimdedov-cookie-consent-manager' ); ?>">
 		<button type="button" class="consentkit-tab is-active" data-consentkit-tab="general">
-			<?php esc_html_e( 'General', 'consentkit' ); ?>
+			<?php esc_html_e( 'General', 'maksimdedov-cookie-consent-manager' ); ?>
 		</button>
 
 		<button type="button" class="consentkit-tab" data-consentkit-tab="texts">
-			<?php esc_html_e( 'Texts', 'consentkit' ); ?>
+			<?php esc_html_e( 'Texts', 'maksimdedov-cookie-consent-manager' ); ?>
 		</button>
 
 		<button type="button" class="consentkit-tab" data-consentkit-tab="company">
-			<?php esc_html_e( 'Company', 'consentkit' ); ?>
+			<?php esc_html_e( 'Company', 'maksimdedov-cookie-consent-manager' ); ?>
 		</button>
 
 		<button type="button" class="consentkit-tab" data-consentkit-tab="pages">
-			<?php esc_html_e( 'Pages', 'consentkit' ); ?>
+			<?php esc_html_e( 'Pages', 'maksimdedov-cookie-consent-manager' ); ?>
 		</button>
 
 		<button type="button" class="consentkit-tab" data-consentkit-tab="scripts">
-			<?php esc_html_e( 'Scripts', 'consentkit' ); ?>
+			<?php esc_html_e( 'Scripts', 'maksimdedov-cookie-consent-manager' ); ?>
 		</button>
 
 	</nav>
@@ -63,7 +63,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<?php do_settings_sections( 'consentkit_scripts' ); ?>
 		</div>
 
-		<?php submit_button( __( 'Save Settings', 'consentkit' ) ); ?>
+		<?php submit_button( __( 'Save Settings', 'maksimdedov-cookie-consent-manager' ) ); ?>
 
 	</form>
 

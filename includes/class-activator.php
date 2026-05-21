@@ -45,13 +45,13 @@ class ConsentKit_Activator {
 		$pages = array(
 
 			'consentkit_cookie_policy_page' => array(
-				'title'     => __( 'Cookie Policy', 'consentkit' ),
+				'title'     => __( 'Cookie Policy', 'maksimdedov-cookie-consent-manager' ),
 				'slug'      => 'cookie-policy',
 				'shortcode' => '[consentkit_cookie_policy]',
 			),
 
 			'consentkit_preferences_page' => array(
-				'title'     => __( 'Cookie Preferences', 'consentkit' ),
+				'title'     => __( 'Cookie Preferences', 'maksimdedov-cookie-consent-manager' ),
 				'slug'      => 'cookie-preferences',
 				'shortcode' => '[consentkit_cookie_preferences]',
 			),

@@ -32,42 +32,42 @@ function consentkit_get_default_settings() {
 		'primary_color'   => '#2563eb',
 		'secondary_color' => '#e5e7eb',
 
-		'banner_title' => __( 'Cookie preferences', 'consentkit' ),
+		'banner_title' => __( 'Cookie preferences', 'maksimdedov-cookie-consent-manager' ),
 
 		'banner_text' => __(
 			'We use cookies to improve your experience, analyze traffic, and personalize content. You can accept all cookies or manage your preferences.',
-			'consentkit'
+			'maksimdedov-cookie-consent-manager'
 		),
 
-		'button_accept_all'      => __( 'Accept all', 'consentkit' ),
-		'button_reject'          => __( 'Reject', 'consentkit' ),
-		'button_settings'        => __( 'Settings', 'consentkit' ),
-		'modal_title'            => __( 'Cookie settings', 'consentkit' ),
-		'button_save'            => __( 'Save preferences', 'consentkit' ),
-		'button_reject_optional' => __( 'Reject optional', 'consentkit' ),
+		'button_accept_all'      => __( 'Accept all', 'maksimdedov-cookie-consent-manager' ),
+		'button_reject'          => __( 'Reject', 'maksimdedov-cookie-consent-manager' ),
+		'button_settings'        => __( 'Settings', 'maksimdedov-cookie-consent-manager' ),
+		'modal_title'            => __( 'Cookie settings', 'maksimdedov-cookie-consent-manager' ),
+		'button_save'            => __( 'Save preferences', 'maksimdedov-cookie-consent-manager' ),
+		'button_reject_optional' => __( 'Reject optional', 'maksimdedov-cookie-consent-manager' ),
 
-		'required_title'       => __( 'Required cookies', 'consentkit' ),
+		'required_title'       => __( 'Required cookies', 'maksimdedov-cookie-consent-manager' ),
 		'required_description' => __(
 			'These cookies are necessary for the website to work.',
-			'consentkit'
+			'maksimdedov-cookie-consent-manager'
 		),
 
-		'analytics_title'       => __( 'Analytics cookies', 'consentkit' ),
+		'analytics_title'       => __( 'Analytics cookies', 'maksimdedov-cookie-consent-manager' ),
 		'analytics_description' => __(
 			'Help us understand how visitors use the website.',
-			'consentkit'
+			'maksimdedov-cookie-consent-manager'
 		),
 
-		'functional_title'       => __( 'Functional cookies', 'consentkit' ),
+		'functional_title'       => __( 'Functional cookies', 'maksimdedov-cookie-consent-manager' ),
 		'functional_description' => __(
 			'Enable additional features and personalization.',
-			'consentkit'
+			'maksimdedov-cookie-consent-manager'
 		),
 
-		'marketing_title'       => __( 'Marketing cookies', 'consentkit' ),
+		'marketing_title'       => __( 'Marketing cookies', 'maksimdedov-cookie-consent-manager' ),
 		'marketing_description' => __(
 			'Used for ads, remarketing, and embedded third-party content.',
-			'consentkit'
+			'maksimdedov-cookie-consent-manager'
 		),
 
 		'cookie_expiration' => 180,

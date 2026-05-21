@@ -15,7 +15,7 @@ $consentkit_options = consentkit_get_settings();
 <div class="consentkit-banner" id="consentkit-banner" hidden>
 	<div class="consentkit-banner__content">
 		<h2 class="consentkit-banner__title">
-			<?php echo esc_html( $consentkit_options['banner_title'] ?? __( 'Cookie preferences', 'consentkit' ) ); ?>
+			<?php echo esc_html( $consentkit_options['banner_title'] ?? __( 'Cookie preferences', 'maksimdedov-cookie-consent-manager' ) ); ?>
 		</h2>
 
 		<p class="consentkit-banner__text">
@@ -53,11 +53,11 @@ $consentkit_options = consentkit_get_settings();
 
 	<div class="consentkit-banner__actions">
 		<button type="button" class="consentkit-button consentkit-button--secondary" data-consentkit-open-modal>
-			<?php echo esc_html( $consentkit_options['button_settings'] ?? __( 'Settings', 'consentkit' ) ); ?>
+			<?php echo esc_html( $consentkit_options['button_settings'] ?? __( 'Settings', 'maksimdedov-cookie-consent-manager' ) ); ?>
 		</button>
 
 		<button type="button" class="consentkit-button consentkit-button--primary" data-consentkit-accept-all>
-			<?php echo esc_html( $consentkit_options['button_accept_all'] ?? __( 'Accept all', 'consentkit' ) ); ?>
+			<?php echo esc_html( $consentkit_options['button_accept_all'] ?? __( 'Accept all', 'maksimdedov-cookie-consent-manager' ) ); ?>
 		</button>
 	</div>
 </div>
