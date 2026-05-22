@@ -19,8 +19,8 @@ class ConsentKit_Admin_Page {
 	public function add_menu_page() {
 
 		add_menu_page(
-			__( 'maksimdedov-cookie-consent-manager', 'maksimdedov-cookie-consent-manager' ),
-			__( 'maksimdedov-cookie-consent-manager', 'maksimdedov-cookie-consent-manager' ),
+			__( 'Cookie Consent', 'maksimdedov-cookie-consent-manager' ),
+			__( 'Cookie Consent', 'maksimdedov-cookie-consent-manager' ),
 			'manage_options',
 			'maksimdedov-cookie-consent-manager',
 			array( $this, 'render_page' ),
@@ -38,7 +38,7 @@ class ConsentKit_Admin_Page {
 	 */
 	public function enqueue_assets( $hook ) {
 
-		if ( 'toplevel_page_consentkit' !== $hook ) {
+		if ( 'toplevel_page_maksimdedov-cookie-consent-manager' !== $hook ) {
 			return;
 		}
 
