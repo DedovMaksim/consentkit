@@ -27,16 +27,6 @@ class ConsentKit_Shortcodes {
 			'consentkit_cookie_preferences',
 			array( $this, 'render_cookie_preferences' )
 		);
-
-		add_shortcode(
-			'md_cookie_policy',
-			array( $this, 'render_cookie_policy' )
-		);
-
-		add_shortcode(
-			'md_cookie_preferences',
-			array( $this, 'render_cookie_preferences' )
-		);
 	}
 
 	/**
