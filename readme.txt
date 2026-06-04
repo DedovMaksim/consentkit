@@ -4,7 +4,7 @@ Tags: cookies, cookie consent, privacy, consent mode, google consent mode
 Requires at least: 6.0
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 0.1.4
+Stable tag: 0.1.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -64,3 +64,7 @@ Yes. Basic multisite support is included.
 
 = 0.1.2 =
 * Initial public beta release. Everything is polished and synchronized.
+
+= 0.1.5 =
+* Fixed delayed script source decoding for analytics, functional and marketing scripts.
+* Improved compatibility with Yandex Metrica and third-party tracking scripts.

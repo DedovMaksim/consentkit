@@ -3,7 +3,7 @@
  * Plugin Name: Maksim Dedov Cookie Consent Manager
  * Plugin URI: https://maksimdedov.ru/cases/consentkit/
  * Description: Flexible cookie consent and privacy preferences manager for WordPress.
- * Version: 0.1.4
+ * Version: 0.1.5
  * Author: Максим Дедов
  * Author URI:  https://maksimdedov.ru/
  * Text Domain: consentkit
