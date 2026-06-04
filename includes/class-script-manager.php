@@ -54,7 +54,7 @@ class ConsentKit_Script_Manager {
 				continue;
 			}
 
-			$prepared_scripts = $this->prepare_script_output( $scripts );
+			$prepared_scripts = $this->prepare_script_source( $scripts );
 			$encoded_scripts  = rawurlencode( $prepared_scripts );
 
 			printf(
@@ -65,6 +65,22 @@ class ConsentKit_Script_Manager {
 		}
 
 		echo "\n";
+	}
+
+	/**
+	 * Prepare script source for delayed loading.
+	 *
+	 * @param string $scripts Raw scripts.
+	 *
+	 * @return string
+	 */
+	private function prepare_script_source( $scripts ) {
+
+		return html_entity_decode(
+			trim( (string) $scripts ),
+			ENT_QUOTES,
+			get_bloginfo( 'charset' )
+		);
 	}
 
 	/**
